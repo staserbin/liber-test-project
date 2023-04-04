@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc5a2832-b5c9-48fd-8982-68e57ab645b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dob/function/DateOfBirthFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dob/program/DateOfBirthProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dob/tests/TestDateOfBirthFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/google/config/PropertyLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/google/pages/GoogleHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/google/pages/GoogleSearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/google/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/google/tests/TestLogoBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/google/tests/TestSearchResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/google/tests/TestTooltipsOnHomepage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/google/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/google/utils/LoggerExtension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/configuration.properties" afterDir="false" />
+    <list default="true" id="cc5a2832-b5c9-48fd-8982-68e57ab645b1" name="Changes" comment="Project is created">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +148,14 @@
       <option name="presentableId" value="Default" />
       <updated>1680096375794</updated>
     </task>
+    <task id="LOCAL-00001" summary="Project is created">
+      <created>1680383399456</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680383399457</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +168,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project is created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project is created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

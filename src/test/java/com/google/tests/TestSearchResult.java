@@ -7,6 +7,7 @@ import static com.google.utils.LoggerExtension.LOGGER;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class TestSearchResult extends BaseTest {
+
     private static final String SEARCH_QUERY = "Will Smith";
 
     @Test(description = "Valid search result is displayed according to search query")

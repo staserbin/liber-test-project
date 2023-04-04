@@ -7,6 +7,7 @@ import static com.codeborne.selenide.Selectors.byName;
 import static com.codeborne.selenide.Selenide.$;
 
 public class GoogleHomePage {
+
     public static final SelenideElement searchField = $(byName("q"));
     public static final SelenideElement searchByVoice = $(By.xpath("//div[@aria-label='Search by voice']"));
     public static final SelenideElement searchByVoiceToolTip = $(By.xpath("//div[contains(text(), 'Search by voice')]"));

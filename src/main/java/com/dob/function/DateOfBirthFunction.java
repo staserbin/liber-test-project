@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.time.Period;
 
 public class DateOfBirthFunction {
+
     public int dateOfBirth(LocalDate dob) {
         int minAge = 18;
 

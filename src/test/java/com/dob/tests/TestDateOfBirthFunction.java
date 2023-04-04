@@ -9,6 +9,7 @@ import java.time.LocalDate;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestDateOfBirthFunction {
+
     @Test
     @DisplayName("Check when age is over 18")
     public void testDOBisOver18() {

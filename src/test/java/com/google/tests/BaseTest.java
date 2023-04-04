@@ -10,6 +10,7 @@ import static com.google.config.PropertyLoader.loadProperty;
 import static com.google.utils.Constants.URL_PROPERTY;
 
 public class BaseTest {
+
     GoogleHomePage googleHomePage = new GoogleHomePage();
     GoogleSearchPage googleSearchPage = new GoogleSearchPage();
 

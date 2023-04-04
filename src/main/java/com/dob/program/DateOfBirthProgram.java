@@ -5,6 +5,7 @@ import java.time.Period;
 import java.util.Scanner;
 
 public class DateOfBirthProgram {
+
     private static final Integer minAge = 18;
 
     public static void main(String[] args) {
