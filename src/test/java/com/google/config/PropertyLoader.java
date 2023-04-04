@@ -9,6 +9,7 @@ public class PropertyLoader {
 
     private static final String PROJECT_PATH = System.getProperty("user.dir");
     private static final String PROPERTY_FILE_PATH = "/src/test/resources/configuration.properties";
+    
     public static String loadProperty(String name) {
         Properties properties = new Properties();
         try {
