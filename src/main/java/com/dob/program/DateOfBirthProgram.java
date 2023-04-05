@@ -36,9 +36,9 @@ public class DateOfBirthProgram {
 
     public static void checkAge(int currentAge, int minAge) {
         if(currentAge >= minAge) {
-            System.out.println("Your age is " + currentAge + ". You can get an access.");
+            System.out.printf("Your age is %s. You can get an access.", currentAge);
         } else {
-            System.out.println("Your age is " + currentAge + ". You must be at least " + minAge + " years old.");
+            System.out.printf("Your age is %s. You must be at least %s years old.", currentAge, minAge);
         }
     }
 }

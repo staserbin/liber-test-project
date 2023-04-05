@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc5a2832-b5c9-48fd-8982-68e57ab645b1" name="Changes" comment="Project is created">
+    <list default="true" id="cc5a2832-b5c9-48fd-8982-68e57ab645b1" name="Changes" comment="Refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dob/function/DateOfBirthFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dob/function/DateOfBirthFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dob/program/DateOfBirthProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dob/program/DateOfBirthProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,20 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestDateOfBirthFunction">
+  <component name="RunManager" selected="Application.DateOfBirthProgram">
+    <configuration name="DateOfBirthProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dob.program.DateOfBirthProgram" />
+      <module name="liber-test-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dob.program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestDateOfBirthFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="liber-test-project" />
       <extension name="coverage">
@@ -72,24 +87,6 @@
       <option name="PACKAGE_NAME" value="com.google.tests" />
       <option name="MAIN_CLASS_NAME" value="com.google.tests.TestLogoBehaviour" />
       <option name="METHOD_NAME" value="testLogoBehaviour" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSearchResult.testSearchResult" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="liber-test-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.google.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.google.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.google.tests.TestSearchResult" />
-      <option name="METHOD_NAME" value="testSearchResult" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DateOfBirthProgram" />
         <item itemvalue="JUnit.TestDateOfBirthFunction" />
         <item itemvalue="TestNG.com.google.tests.TestLogoBehaviour and 2 more" />
         <item itemvalue="TestNG.TestTooltipsOnHomepage.testTooltipsOnHomepage" />
         <item itemvalue="TestNG.TestLogoBehaviour.testLogoBehaviour" />
-        <item itemvalue="TestNG.TestSearchResult.testSearchResult" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680383399457</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactoring">
+      <created>1680620210466</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680620210467</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,7 +175,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project is created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project is created" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
