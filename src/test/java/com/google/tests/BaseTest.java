@@ -19,8 +19,8 @@ public class BaseTest {
         open(loadProperty(URL_PROPERTY));
     }
 
-    @AfterMethod
-    public void closeApp() {
-        closeWebDriver();
-    }
+//    @AfterMethod
+//    public void closeApp() {
+//        closeWebDriver();
+//    }
 }
