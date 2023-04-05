@@ -1,7 +1,9 @@
 package com.google.tests;
 
+import com.codeborne.selenide.Condition;
 import org.testng.annotations.Test;
 
+import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 import static com.google.pages.GoogleHomePage.*;
 import static com.google.utils.LoggerExtension.LOGGER;
@@ -20,7 +22,8 @@ public class TestTooltipsOnHomepage extends BaseTest {
 
         LOGGER.info("Validate 'Search by voice' button tooltip");
         actions().clickAndHold().moveToElement(searchByVoice).build().perform();
-        String toolTipText = searchByVoiceToolTip.getText();
-        assertThat(toolTipText).isEqualTo(TOOLTIP_VOICE);
+//        String toolTipText = searchByVoiceToolTip.getText();
+//        assertThat(toolTipText).isEqualTo(TOOLTIP_VOICE);
+        searchByVoiceToolTip.shouldHave(text(TOOLTIP_VOICE));
     }
 }
